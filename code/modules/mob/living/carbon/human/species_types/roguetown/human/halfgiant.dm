@@ -128,10 +128,4 @@
 	C.transform.Translate(0, (0.25 * 16))
 	C.update_transform()
 
-/datum/species/halfgiant/get_accent(mob/living/carbon/human/H)
-    switch(H.skin_tone)
-        if(SKIN_COLOR_GRENZELHOFT) //Grenzelhoft
-            return strings("german_replacement.json", "german")
-        if(SKIN_COLOR_HAMMERHOLD) //Hammerhold
-            return strings("Anglish.json", "Anglish")
-    return null
+
