@@ -139,6 +139,7 @@
 	name = "Giant"
 	desc = ""
 	value = 0
+	mob_trait = TRAIT_GIANT
 	weight = 50
 
 /datum/quirk/backproblems/on_apply(mob/living/carbon/human/character)
@@ -148,3 +149,4 @@
 	character.transform = character.transform.Scale(1.25, 1.25)
 	character.transform = character.transform.Translate(0, (0.25 * 16))
 	character.update_transform()
+
