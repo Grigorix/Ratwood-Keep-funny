@@ -120,6 +120,7 @@
 	..()
 	C.transform = C.transform.Scale(1.04, 1.12)
 	C.update_transform()
+	appearance_flags = PIXEL_SCALE
 
 /datum/species/halfgiant/on_species_loss(mob/living/carbon/C)
 	..()
