@@ -135,18 +135,3 @@
 	if(H)
 		H.cure_trauma_type(/datum/brain_trauma/mild/phobia, TRAUMA_RESILIENCE_ABSOLUTE)
 
-/datum/quirk/backproblems
-	name = "Giant"
-	desc = ""
-	value = 0
-	mob_trait = TRAIT_GIANT
-	weight = 50
-
-/datum/quirk/backproblems/on_apply(mob/living/carbon/human/character)
-	character.change_stat("strength", 2)
-	character.change_stat("constitution", 1)
-	character.change_stat("speed", -2)
-	character.transform = character.transform.Scale(1.25, 1.25)
-	character.transform = character.transform.Translate(0, (0.25 * 16))
-	character.update_transform()
-
