@@ -1,5 +1,5 @@
 /mob/living/carbon/human/species/halfgiant
-	race = /datum/species/halfgiant
+	race = /datum/human/species/halfgiant
 
 /datum/species/halfgiant
 	name = "HalfGiant"
