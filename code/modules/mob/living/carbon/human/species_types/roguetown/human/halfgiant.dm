@@ -115,7 +115,7 @@
 	"red - blood" = "822b2b"
 
 	))
-/datum/species/halfgiant/on_species_gain(mob/living/carbon/c)
+/datum/species/halfgiant/on_species_gain(mob/living/carbon/c, datum/species/old_species)
 	..()
 	character.transform = character.transform.Scale(1.25, 1.25)
 	character.transform = character.transform.Translate(0, (0.25 * 16))
