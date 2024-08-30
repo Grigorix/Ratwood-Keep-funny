@@ -14,6 +14,7 @@
 		/datum/species/human/northern,
 		/datum/species/demihuman,
 		/datum/species/anthromorph,
+		/datum/species/halfgiant,
 	)
 	outfit = /datum/outfit/job/roguetown/mercenary/grenzelhoft
 	display_order = JDO_GRENZELHOFT
