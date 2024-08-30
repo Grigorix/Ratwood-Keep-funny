@@ -25,7 +25,6 @@
 
 #define RACES_RESPECTED \
 	/datum/species/human/northern,\
-	/datum/species/human/halfgiant,\
 	/datum/species/elf/wood,\
 	/datum/species/human/halfelf,\
 	/datum/species/dwarf/mountain,\
