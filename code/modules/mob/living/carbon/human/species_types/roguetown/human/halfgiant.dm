@@ -31,6 +31,9 @@
 	dam_icon_f = 'icons/roguetown/mob/bodies/dam/dam_female.dmi'
 	soundpack_m = /datum/voicepack/male
 	soundpack_f = /datum/voicepack/female
+	character.transform = character.transform.Scale(1.25, 1.25)
+	character.transform = character.transform.Translate(0, (0.25 * 16))
+	character.update_transform()
 	offset_features = list(
 		OFFSET_ID = list(0,1), OFFSET_GLOVES = list(0,1), OFFSET_WRISTS = list(0,1),\
 		OFFSET_CLOAK = list(0,1), OFFSET_FACEMASK = list(0,1), OFFSET_HEAD = list(0,1), \
@@ -115,10 +118,6 @@
 	"red - blood" = "822b2b"
 
 	))
-
-character.transform = character.transform.Scale(1.25, 1.25)
-	character.transform = character.transform.Translate(0, (0.25 * 16))
-	character.update_transform()
 
 /datum/species/human/halfgiant/get_accent(mob/living/carbon/human/H)
     switch(H.skin_tone)
