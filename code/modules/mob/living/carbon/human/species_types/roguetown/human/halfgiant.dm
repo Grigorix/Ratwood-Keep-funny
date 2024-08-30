@@ -127,7 +127,7 @@
 	C.transform = C.transform.Scale(1/1.06, 1/1.06)
 	C.update_transform()
 
-/datum/species/halfgiant//get_accent(mob/living/carbon/human/H)
+/datum/species/halfgiant/get_accent(mob/living/carbon/human/H)
     switch(H.skin_tone)
         if(SKIN_COLOR_GRENZELHOFT) //Grenzelhoft
             return strings("german_replacement.json", "german")
