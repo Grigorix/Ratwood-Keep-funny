@@ -33,6 +33,7 @@
 	/datum/species/vulpkanin,\
 	/datum/species/moth,\
 	/datum/species/dracon,
+	/datum/species/halfgiant,\
 
 #define RACES_TOLERATED \
 	/datum/species/lizardfolk,\
@@ -40,7 +41,6 @@
 	/datum/species/akula,\
 	/datum/species/anthromorph,\
 	/datum/species/demihuman
-	/datum/species/halfgiant,\
 
 #define RACES_SHUNNED \
 	/datum/species/elf/dark,\
