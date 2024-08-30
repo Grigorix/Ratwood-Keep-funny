@@ -2,8 +2,8 @@
 	race = /datum/species/human/northern
 
 /datum/species/human/northern
-	name = "Humen"
-	id = "humen"
+	name = "HalfGiant"
+	id = "halfgiant"
 	desc = "<b>Humen</b><br>\
 	Humen (or Human) are the eldest of the weeping gods creation. Noted for their\
 	tenacity and overwhelming population, humans tend to outnumber the other races. \
@@ -31,6 +31,7 @@
 	dam_icon_f = 'icons/roguetown/mob/bodies/dam/dam_female.dmi'
 	soundpack_m = /datum/voicepack/male
 	soundpack_f = /datum/voicepack/female
+	inherent_traits = list(TRAIT_NOMOBSWAP, TRAIT_Giant)
 	offset_features = list(
 		OFFSET_ID = list(0,1), OFFSET_GLOVES = list(0,1), OFFSET_WRISTS = list(0,1),\
 		OFFSET_CLOAK = list(0,1), OFFSET_FACEMASK = list(0,1), OFFSET_HEAD = list(0,1), \
