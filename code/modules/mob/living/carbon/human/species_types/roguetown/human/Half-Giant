@@ -4,7 +4,7 @@
 /datum/species/human/northern
 	name = "HalfGiant"
 	id = "halfgiant"
-	desc = "<b>Humen</b><br>\
+	desc = "<b>HalfGiant</b><br>\
 	Humen (or Human) are the eldest of the weeping gods creation. Noted for their\
 	tenacity and overwhelming population, humans tend to outnumber the other races. \
 	at a rate of about ten to one in regions such as Grenzelhoft. Althrough to the west \
@@ -17,7 +17,7 @@
 
 	default_color = "FFFFFF"
 	species_traits = list(EYECOLOR,HAIR,FACEHAIR,LIPS,STUBBLE,OLDGREY)
-	inherent_traits = list(TRAIT_NOMOBSWAP)
+	inherent_traits = list(TRAIT_NOMOBSWAP, TRAIT_Giant)
 	default_features = MANDATORY_FEATURE_LIST
 	use_skintones = 1
 	possible_ages = ALL_AGES_LIST
@@ -31,7 +31,6 @@
 	dam_icon_f = 'icons/roguetown/mob/bodies/dam/dam_female.dmi'
 	soundpack_m = /datum/voicepack/male
 	soundpack_f = /datum/voicepack/female
-	inherent_traits = list(TRAIT_NOMOBSWAP, TRAIT_Giant)
 	offset_features = list(
 		OFFSET_ID = list(0,1), OFFSET_GLOVES = list(0,1), OFFSET_WRISTS = list(0,1),\
 		OFFSET_CLOAK = list(0,1), OFFSET_FACEMASK = list(0,1), OFFSET_HEAD = list(0,1), \
