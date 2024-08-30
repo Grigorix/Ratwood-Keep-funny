@@ -123,7 +123,7 @@
 	C.update_transform()
 
 /datum/species/halfgiant/on_species_loss(mob/living/carbon/C)
-. = ..()
+	..()
 C.transform + C.transform.scale(2, 2)
 	C.update_transform()
 
