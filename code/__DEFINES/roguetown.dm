@@ -20,7 +20,6 @@
 	/datum/species/halforc,\
 	/datum/species/kobold,\
 	/datum/species/goblinp,\
-	/datum/species/halfgiant,\
 )
 
 #define RACES_RESPECTED \
@@ -40,7 +39,6 @@
 	/datum/species/akula,\
 	/datum/species/anthromorph,\
 	/datum/species/demihuman
-	/datum/species/halfgiant,\
 
 #define RACES_SHUNNED \
 	/datum/species/elf/dark,\
