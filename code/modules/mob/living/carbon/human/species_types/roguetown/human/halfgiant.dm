@@ -118,13 +118,19 @@
 
 /datum/species/halfgiant/on_species_gain(mob/living/carbon/C, datum/species/old_species)
 	..()
-	C.transform = C.transform.Scale(1.08, 1.08)
+	C.transform = C.transform.Scale(1.06, 1.06)
 	C.transform.Translate(0, (0.25 * 16))
 	C.update_transform()
 
 /datum/species/halfgiant/on_species_loss(mob/living/carbon/C)
 	..()
-	C.transform = C.transform.Scale(1/1.08, 1/1.08)
+	C.transform = C.transform.Scale(1/1.06, 1/1.06)
 	C.update_transform()
 
-
+/datum/species/halfgiant//get_accent(mob/living/carbon/human/H)
+    switch(H.skin_tone)
+        if(SKIN_COLOR_GRENZELHOFT) //Grenzelhoft
+            return strings("german_replacement.json", "german")
+        if(SKIN_COLOR_HAMMERHOLD) //Hammerhold
+            return strings("Anglish.json", "Anglish")
+    return null
