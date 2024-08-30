@@ -36,6 +36,7 @@
 
 #define RACES_TOLERATED \
 	/datum/species/lizardfolk,\
+	/datum/species/human/halfgiant,\
 	/datum/species/tabaxi,\
 	/datum/species/akula,\
 	/datum/species/anthromorph,\
