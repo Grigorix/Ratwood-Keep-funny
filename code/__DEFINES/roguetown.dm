@@ -25,6 +25,7 @@
 
 #define RACES_RESPECTED \
 	/datum/species/human/northern,\
+	/datum/species/human/halfgiant,\
 	/datum/species/elf/wood,\
 	/datum/species/human/halfelf,\
 	/datum/species/dwarf/mountain,\
@@ -36,7 +37,6 @@
 
 #define RACES_TOLERATED \
 	/datum/species/lizardfolk,\
-	/datum/species/human/halfgiant,\
 	/datum/species/tabaxi,\
 	/datum/species/akula,\
 	/datum/species/anthromorph,\
