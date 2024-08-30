@@ -119,7 +119,7 @@
 /datum/species/halfgiant/on_species_gain(mob/living/carbon/C, datum/species/old_species)
 	..()
 	C.transform = C.transform.Scale(1.02, 1.10)
-	C.transform.Translate(0, (0.90 * 16))
+	C.transform.Translate(15, 20)
 	C.update_transform()
 
 /datum/species/halfgiant/on_species_loss(mob/living/carbon/C)
