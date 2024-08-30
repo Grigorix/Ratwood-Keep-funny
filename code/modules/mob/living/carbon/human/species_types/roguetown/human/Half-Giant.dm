@@ -1,7 +1,7 @@
 /mob/living/carbon/human/species/halfgiant
 	race = /datum/species/halfgiant
 
-/datum/species/human/northern
+/datum/species/halfgiant
 	name = "HalfGiant"
 	id = "halfgiant"
 	desc = "<b>HalfGiant</b><br>\
