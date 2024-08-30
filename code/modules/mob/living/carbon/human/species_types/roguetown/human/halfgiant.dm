@@ -124,7 +124,7 @@
 
 /datum/species/halfgiant/on_species_loss(mob/living/carbon/C)
 	..()
-	C.transform = C.transform.Scale(1.2, 1.2)
+	C.transform = C.transform.Scale(0.6, 0.6)
 	C.update_transform()
 
 /datum/species/halfgiant/get_accent(mob/living/carbon/human/H)
