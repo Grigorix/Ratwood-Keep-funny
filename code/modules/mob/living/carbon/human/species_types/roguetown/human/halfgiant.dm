@@ -74,10 +74,10 @@
 		/datum/body_marking/tonage,
 	)
 
-/datum/species/human/northern/check_roundstart_eligible()
+/datum/species/halfgiant/check_roundstart_eligible()
 	return TRUE
 
-/datum/species/human/northern/get_skin_list()
+/datum/species/halfgiant/get_skin_list()
 	return list(
 		"Grenzelhoft" = SKIN_COLOR_GRENZELHOFT,
 		"Hammerhold" = SKIN_COLOR_HAMMERHOLD,
@@ -92,7 +92,7 @@
 		"Ebon" = SKIN_COLOR_EBON,
 	)
 
-/datum/species/human/northern/get_hairc_list()
+/datum/species/halfgiant/get_hairc_list()
 	return sortList(list(
 	"blond - pale" = "9d8d6e",
 	"blond - dirty" = "88754f",
