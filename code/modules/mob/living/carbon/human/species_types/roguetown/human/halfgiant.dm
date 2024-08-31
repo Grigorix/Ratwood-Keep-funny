@@ -120,7 +120,7 @@
 	..()
 	C.transform = C.transform.Scale(1.02, 1.10)
 	C.update_transform()
-	C.set_mob_offsets(x = 40, y = 40)
+	C.set_mob_offsets(40, 40)
 
 /datum/species/halfgiant/on_species_loss(mob/living/carbon/C)
 	..()
