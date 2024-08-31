@@ -126,7 +126,6 @@
 	..()
 	C.transform = C.transform.Scale(1/1.02, 1/1.10)
 	C.update_transform()
-	C.set_mob_offsets(_x = 0, _y = -4)
 
 /datum/species/halfgiant/get_accent(mob/living/carbon/human/H)
     switch(H.skin_tone)
