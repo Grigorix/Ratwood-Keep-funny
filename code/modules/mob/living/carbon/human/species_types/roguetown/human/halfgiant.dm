@@ -32,7 +32,7 @@
 	soundpack_m = /datum/voicepack/male
 	soundpack_f = /datum/voicepack/female
 	offset_features = list(
-		OFFSET_ID = list(0,-), OFFSET_GLOVES = list(0,2), OFFSET_WRISTS = list(0,2),\
+		OFFSET_ID = list(0,0), OFFSET_GLOVES = list(0,2), OFFSET_WRISTS = list(0,2),\
 		OFFSET_CLOAK = list(0,4), OFFSET_FACEMASK = list(0,4), OFFSET_HEAD = list(0,4), \
 		OFFSET_FACE = list(0,4), OFFSET_BELT = list(0,2), OFFSET_BACK = list(0,4), \
 		OFFSET_NECK = list(0,4), OFFSET_MOUTH = list(0,4), OFFSET_PANTS = list(0,2), OFFSET_FEET = list(0,4), \
@@ -120,6 +120,7 @@
 	..()
 	C.transform = C.transform.Scale(1.02, 1.10)
 	C.update_transform()
+	C.set_mob_offsets(_x = 0, _y = 4)
 
 /datum/species/halfgiant/on_species_loss(mob/living/carbon/C)
 	..()
