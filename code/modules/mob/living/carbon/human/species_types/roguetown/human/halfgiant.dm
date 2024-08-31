@@ -120,7 +120,7 @@
 	..()
 	C.transform = C.transform.Scale(1.02, 1.10)
 	C.update_transform()
-	y_offset = -8
+	C.y_offset = -8
 
 /datum/species/halfgiant/on_species_loss(mob/living/carbon/C)
 	..()
